@@ -8,7 +8,6 @@ module.exports = {
       twitter: `kylemathews`,
     },
   },
-  pathPrefix: "/myblog",
   plugins: [{
       resolve: `gatsby-source-filesystem`,
       options: {
