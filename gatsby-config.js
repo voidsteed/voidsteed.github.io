@@ -3,7 +3,7 @@ module.exports = {
     title: `DayDreaming`,
     author: `Yujun Liu`,
     description: `A blog record something for a daydreamer`,
-    siteUrl: `Yujun Liu`,
+    siteUrl: `yujunliu.me`,
     social: {
       twitter: `VoidSteed`,
     },
