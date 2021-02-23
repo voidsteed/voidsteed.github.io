@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Day Dreaming`,
     author: `Yujun Liu`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog to show my thoughts.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `elonmusk`,
     },
   },
   pathPrefix: "/myblog",
@@ -73,5 +73,6 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-cname`
   ],
 }
