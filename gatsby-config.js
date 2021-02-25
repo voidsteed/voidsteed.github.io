@@ -72,12 +72,6 @@ module.exports = {
       options: {
         pathToConfigModule: `src/utils/typography`,
       },
-    },
-    {
-      resolve: `gatsby-plugin-disqus`,
-      options: {
-          shortname: `yujunliu`
-      }
-  },
+    }
   ],
 }
