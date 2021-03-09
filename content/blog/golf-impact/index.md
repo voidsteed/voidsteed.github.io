@@ -1,6 +1,6 @@
 ---
-title: [Golf] Impact
-date: "2021-03-08"
+title: Golf Impact Position
+date: "2021-03-09T07:25:58.779Z"
 description: Understanding golf impact position
 ---
 
