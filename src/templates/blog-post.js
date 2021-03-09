@@ -13,12 +13,9 @@ class BlogPostTemplate extends React.Component {
     const siteTitle = this.props.data.site.siteMetadata.title;
     const { previous, next } = this.props.pageContext;
     const disqusConfig = {
-      shortname: process.env.GATSBY_DISQUS_NAME,
-      config: {
-        identifier: `${this.props.location.pathname}`,
-        title: post.frontmatter.title,
-        url: `https://yujunliu.me${this.props.location.pathname}`,
-      },
+      identifier: `${this.props.location.pathname}`,
+      title: post.frontmatter.title,
+      url: `https://yujunliu.me${this.props.location.pathname}`,
     };
 
     return (
@@ -70,7 +67,7 @@ class BlogPostTemplate extends React.Component {
             )}
           </li>
         </ul>
-        <DiscussionEmbed {...disqusConfig} />
+        <DiscussionEmbed shortname="yujunliu" config={disqusConfig} />
       </Layout>
     );
   }
